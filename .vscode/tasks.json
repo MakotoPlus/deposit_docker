@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "projects/deposit/",
+			"problemMatcher": [],
+			"label": "npm: start - projects/deposit",
+			"detail": "react-scripts start"
+		}
+	]
+}
