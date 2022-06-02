@@ -26,5 +26,5 @@ EXPOSE 8000
 
 # Django起動
 #CMD ["uwsgi", "--socket", ":8000", "--chdir", "/workspace/deposit_srv", "--wsgi-file", "deposit_srv/wsgi.py"]
-#CMD ["uwsgi", "--socket", ":8000", "--chdir", "/workspace/deposit_srv", "--wsgi-file", "env/wsgi.py"]
+CMD ["uwsgi", "--socket", ":8000", "--chdir", "/workspace/deposit_srv", "--wsgi-file", "env/wsgi.py"]
 
